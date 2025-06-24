@@ -82,4 +82,124 @@ body{
             
         }
 
+/* task_3.html */
+.container{
+    
+   text-align: center;
+   
+   
+    position: relative;
+    left: 200px;
+    top: 100px;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    display: flex;
+    
+       
+}
+ .left-side{
+    position:absolute; 
+    width: 58%;
+    height: 99%;
+    /* border: 2px solid black; */
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+ }
+ .uper-side{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2 px solid black;
+    height: 40%;
+    justify-content: space-between;
+ }
+ .box-A{
+    border: 2px solid black;
+    width: 38%;
+    height: 100%;
+    text-align: center;
+    
+ }
+ .box-B{
+    border: 2px solid black;
+    width: 57%;
+    height: 100%;
+    
+ }
+ .lower-side{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    /* border: 2px solid black; */
+    height: 57%;
+    justify-content: space-between;
+ }
+ 
+ .lower-side-left{
+    /* border: 2px solid black; */
+    width: 20%;
+    height: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .box-C{
+    width: 100%;
+    border: 2px solid black;
+    height: 47%;
+ }
+ .box-D{
+    width: 100%;
+    border: 2px solid black;
+    height: 47%;
+ }
 
+
+.lower-side-right{
+    border: 2px solid black;
+    width: 77%;
+    height: 97%;
+
+}
+
+
+
+ .Right-side{
+    width: 39%;
+    height: 99%;
+    /* border: 2px solid black;  */
+    position: absolute;
+    left: 360px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+ }
+ .Right-side-left{
+    width: 28%;
+    border: 2px solid black;
+    height: 98%;
+ }
+ .Right-side-right{
+    /* border: 2px solid black; */
+    height: 98%;
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ .box-G{
+    border: 2px solid black;
+    width: 98%;
+    height: 68%;
+ }
+ 
+ .box-H{
+    border: 2px solid black;
+    width: 98%;
+    height: 28%;
+ }
